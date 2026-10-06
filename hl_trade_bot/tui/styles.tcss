@@ -1,0 +1,74 @@
+/* Hyperliquid Copy-Trade Verifier — Textual stylesheet */
+
+Screen {
+    layout: vertical;
+    background: $surface;
+}
+
+Header {
+    background: $primary;
+    color: $text;
+}
+
+#tabs {
+    height: 1fr;
+}
+
+TabPane {
+    padding: 0 1;
+}
+
+.pane-title {
+    text-style: bold;
+    color: $accent;
+    margin: 0 0 1 0;
+}
+
+/* ---- Stats panel (a Static; styling is via Rich markup inside _render) ---- */
+StatsPanel {
+    height: auto;
+    margin: 1 0;
+    padding: 0 1;
+    border: round $panel;
+}
+
+/* ---- Trust badge (a Static; coloring via Rich markup) ---- */
+TrustBadge {
+    height: auto;
+    padding: 0 1;
+    text-style: bold;
+}
+
+/* ---- Tables ---- */
+DataTable {
+    background: $panel;
+    height: auto;
+}
+
+/* ---- Dashboard ---- */
+#dash-title {
+    text-style: bold;
+    color: $accent;
+    margin: 0 0 1 0;
+}
+
+#dash-trader {
+    color: $text-muted;
+    margin: 0 0 1 0;
+}
+
+EquitySpark {
+    height: 6;
+    margin: 1 0;
+    border: round $accent;
+}
+
+PositionTable {
+    height: 1fr;
+    margin-top: 1;
+}
+
+TraderTable {
+    height: 1fr;
+    margin-top: 1;
+}
